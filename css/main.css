@@ -1,10 +1,4 @@
 
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
 @font-face {
   font-family: Ubuntu-Regular;
   src: url('../fonts/ubuntu/Ubuntu-Regular.ttf'); 
@@ -14,12 +8,6 @@
   font-family: Ubuntu-Bold;
   src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
 }
-
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ RESTYLE TAG ]*/
 
 * {
 	margin: 0px; 
@@ -32,7 +20,6 @@ body, html {
 	font-family: Ubuntu-Regular, sans-serif;
 }
 
-/*---------------------------------------------*/
 a {
 	font-family: Ubuntu-Regular;
 	font-size: 14px;
@@ -54,7 +41,6 @@ a:hover {
   color: #fff;
 }
 
-/*---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
@@ -73,7 +59,6 @@ ul, li {
 }
 
 
-/*---------------------------------------------*/
 input {
 	outline: none;
 	border: none;
@@ -113,7 +98,6 @@ label {
   display: block;
 }
 
-/*---------------------------------------------*/
 button {
 	outline: none !important;
 	border: none;
@@ -128,8 +112,6 @@ iframe {
 	border: none !important;
 }
 
-
-/*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
   font-family: Poppins-Regular;
@@ -137,10 +119,6 @@ iframe {
   color: #e5e5e5;
   line-height: 1.5;
 }
-
-
-/*//////////////////////////////////////////////////////////////////
-[ login ]*/
 
 .limiter {
   width: 100%;
@@ -188,9 +166,6 @@ iframe {
 }
 
 
-/*------------------------------------------------------------------
-[ Form ]*/
-
 .login100-form {
   width: 100%;
   border-radius: 10px;
@@ -227,9 +202,6 @@ iframe {
 }
 
 
-/*------------------------------------------------------------------
-[ Input ]*/
-
 .wrap-input100 {
   width: 100%;
   position: relative;
@@ -254,7 +226,6 @@ iframe {
   transition: all 0.4s;
 }
 
-/*---------------------------------------------*/ 
 .focus-input100 {
   position: absolute;
   display: block;
@@ -331,9 +302,6 @@ iframe {
   padding-left: 60px;
 }
 
-
-/*------------------------------------------------------------------
-[ Button ]*/
 .container-login100-form-btn {
   width: 100%;
   display: -webkit-box;
@@ -406,10 +374,6 @@ iframe {
 }
 
 
-
-/*------------------------------------------------------------------
-[ Alert validate ]*/
-
 .validate-input {
   position: relative;
 }
@@ -474,6 +438,3 @@ iframe {
     opacity: 1;
   }
 }
-
-
-
